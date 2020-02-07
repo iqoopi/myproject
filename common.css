@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700&display=swap');
+
+/*  ------ layout -------- */
+.container {
+	width:1170px;
+	margin:0 auto;
+}
+form{
+	width:350px;
+	margin:0 auto;
+}
+/*  ------ colors -------- */
+.secondary-bg { 
+	background:#ebebeb;
+}
+.primary-bg { 
+	background:#9ac75b;
+}
+.banner{
+	background:#2d3e4f;
+}
+/*  ------ form -------- */
+label{display:none;}
+
+.field{
+	background:#fff;
+	padding:0 20px;
+	margin-bottom:10px;
+	border-radius:4px;
+}
+.field input, .field button{
+	border:none;	
+	line-height:54px;
+}
+
+.submit{
+	border:1px solid #fff;
+	background:none;
+}
+.submit button{
+	background:none;
+	color:#fff;
+	text-align:center;
+	display:block;
+	width:100%;
+}
+/*  ------ typography -------- */
+body{
+	color:#2c2c2c;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+}
+.big-tt{ 
+	color:#3a99d8;
+	font-size:55px;
+	letter-spacing:0.05em;
+	text-transform:uppercase;
+	text-align:center;
+}
+.content-tt {
+	font-size:32px;
+	margin-bottom:27px;
+	text-align:center;
+}
+.content-tt-desc{
+	color:#a8a8a8;
+	font-size:18px;
+	text-align:center;
+}
+/*  ------ link & buttons -------- */
+a{
+	color:#9ac75b;
+}
+.btn.primary-bg{
+	color:#55762c;
+}
+.btn{
+	border-radius:4px;
+	height:39px;
+	line-height:39px;
+	display:inline-block;
+	padding:0 20px;	
+	color:#6e6e6e;
+	font-size:14px; 
+	letter-spacing:0.04em; 
+	text-transform:uppercase; 
+	text-decoration:none;
+	font-weight:bold;	
+}
+.hidden{
+	position:fixed;
+	top:0;
+	left:-9999em;
+	overflow:hidden;
+}
+hr{
+	border:none;
+	/* border-bottom: 1px solid #cac4c4; */
+	height:1px;
+	background:#cac4c4;
+}
+
+
+
+

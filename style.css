@@ -1,0 +1,89 @@
+@import url(reset.css);
+@import url(common.css);
+
+/*header*/
+header{padding:27px 0;}
+header h1{float:left;}
+header nav .menu_left{float:left; padding:7px;}
+header nav .menu_right{float:right; padding:7px;}
+header nav li{float:left; margin-right:10px; color:#a8a8a8;}
+header nav li:first-child{margin-right:40px; word-spacing:4px;}
+header nav li:last-child{margin-right:0;}
+header nav li a {line-height:39px; font-weight:bold; font-size:14px; letter-spacing:0.04em; color:#000; text-transform:uppercase; text-decoration:none;}
+header h1 a{
+	background:url(../images/logo.png) no-repeat;
+	width:161px;
+	height:54px;
+	display:block;
+	text-indent:-9999em;
+}
+
+/* 
+.header h1 img{position:absolute; z-index:1; left: 50%; top:1em; display:block; width:5.5em; height:5em;}
+
+menu_left 
+.menu_left{float:left;}
+.menu_left li a{display:block;}
+.submenu{float:left;}
+
+/*
+.header .nav ul .menu_left{float:left; z-index:1000;}
+.header .nav ul .menu_left li{position:relative; float:left; text-align:center;}
+.header .nav ul .menu_left li a{display:block; padding:54px 30px;}
+.header .nav ul .menu_left li a:hover{text-decoration:underline; font-weight:bold;}
+.header .nav ul .menu_left li ul.submenu{display:none; position:absolute; left:0; top:100px; background: #fff;}
+.header .nav ul .menu_left li ul.submenu li a{padding: 10px 15px; font-size:14px; }
+.header .nav ul .menu_left li ul.submenu li a:hover{text-decoration:none; background: #ccc; }
+
+
+/* menu_right*/ 
+.header .nav ul .menu_right{float:right; z-index:1000;}
+.header .nav ul .menu_right li {position:relative; float:left; width:140px; text-align:center;}
+.header .nav ul .menu_right li a {display:block; padding:54px 30px;}
+.header .nav ul .menu_right li a:hover {text-decoration:underline; font-weight:bold;}
+.header .nav ul .menu_right li ul.submenu {display:none; position:absolute; left:0; top:100px; background: #fff;}
+.header .nav ul .menu_right li ul.submenu li a {padding: 10px 15px; font-size:14px;}
+.header .nav ul .menu_right li ul.submenu li a:hover {text-decoration:none; background: #ccc; }
+
+
+
+/* banner */
+.banner{width:100vw; text-align:center; height:945px; overflow:hidden;}
+
+/* sidebar */
+.slideList {position:relative; width:100vw; height:945px; }
+.slideList .slideImg{position:relative;}
+.slideList .slideImg h2{position: absolute; left: 50%; top: 20%; transform: translate(-50%,-50%); color: #fff; font-size: 25px; padding: 10px 30px;}
+/*.slideList .slideImg ul li{float:left; position: absolute; left: 50%; top: 30%; transform: translate(-50%,-50%); color: #fff; font-size: 20px; padding: 10px 30px;}*/
+.slideList .slideImg img{display: block;}
+
+
+/* vr_info */
+.vr_info{margin:100px; text-align:center;}
+.vr_info h2{font-size:24px;}
+/*#vr_info .line{width:400px; border-bottom:0px; text-align:center; color:#999;} */
+.vr_info .real{}
+.vr_info .real figure{margin-top:160px; float:left; width:20%; margin-right:10%;}
+.vr_info .real figcaption{font-size:25px; padding:30px; font-weight:bold;}
+.vr_info li{font-size: 15px;}
+.vr_info li:last-child{margin-top:40px; font-size:20px;}
+
+
+/* footer */
+.footer {padding-top:15px; height:200px; background:#eee;}
+.footer .ft_nav{float:left; text-align:center; font-weight:bold;} /*menu*/
+.footer h2{float:left;}                        /*logo*/
+.footer h2 img{width:80px; height:80px; margin:50px 30px 30px 0;}
+.footer ul{float:left; width:50%; padding:10px 0; color:#666;}  /*info*/
+.footer ul p{text-align:center; padding:15px;}   /*rights*/
+.footer ul li{display:inline-block; line-height:1.4; padding:0px 10px 1px 10px; position:relative;}
+.footer ul li:after{content:''; width:1px; height:13px;
+ background:#666; position:absolute; right:0; top:0;}
+.footer ul li a{padding-right:1px;}
+.footer .address{font-style:normal; padding-right:50px;}
+.footer .sns{float:right;}
+.footer .sns img{width:50px; height:50px;}
+
+
+
+
